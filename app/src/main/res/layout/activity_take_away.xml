@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dimasdwicahya.dimasdwicahya_1202152166_modul2.TakeAway">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Pemesan"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/inputNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:ems="10"
+            android:hint="Nama :"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/inputNoHp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:ems="10"
+            android:hint="No.Hp :"
+            android:inputType="phone"
+
+            />
+
+
+
+        <EditText
+            android:id="@+id/inputAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:ems="10"
+            android:hint="Alamat :"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/inputCatatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:ems="10"
+            android:hint="Catatan :"
+            android:inputType="text" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="actionLanjutkan"
+            android:padding="16dp"
+            android:text="Lanjutkan" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dimasdwicahya.dimasdwicahya_1202152166_modul2.DineIn"
+    android:padding="24dp"
+    >
+
+
+    <EditText
+        android:id="@+id/inputNama2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="Nama : "
+
+        />
+
+    <Spinner
+        android:id="@+id/Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputNama2"
+        android:layout_marginBottom="16dp"
+        android:entries="@array/android_layout_arrays"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lanjutkan2"
+        android:layout_below="@+id/Test"
+        android:text="Lanjutkan"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="16dp"
+        android:onClick="actionLanjutkan2"
+
+        />
+
+
+</RelativeLayout>

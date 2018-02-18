@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">DIMAS DWI CAHYA_1202152166_MODUL2</string>
+    <string name="title_placeholder">Title</string>
+    <string name="news_label">Deskripsi Makanan</string>
+    <string name="foods_info_placeholder">Menu makanan</string>
+    <string name="foods_image">foods Image</string>
+
+
+    <string name="filler_text">
+        Semua menu yang kami sajikan merupakan terbuat dari bahan baku organik yang segar,
+        diambil langsung dari para petani.
+        Pengolahan bahan baku yang steril, karena tidak banyak tangan dalam proses pengolahannya.
+        Takaran bahan baku dan bumbu sudah kami sesuaikan dengan masing-masing program.
+        Bersetifikasi BPOM dan berlabel Halal dari Majelis Ulama Indonesia.
+    </string>
+
+    <string-array name="foods_titles">
+        <item>Mayo Diet 1</item>
+        <item>Keto Diet 1</item>
+        <item>Nocarbs Diet 1</item>
+        <item>Paleo Diet 1</item>
+        <item>Paleo Diet 2</item>
+        <item>Muscle Diet 1</item>
+        <item>Muscle Diet 2</item>
+
+    </string-array>
+
+
+    <!--<string-array name="filler_text">-->
+    <!--<item>Kol, Wortel, Salad Air, Salad Ungu, Mayonaise</item>-->
+    <!--<item>Ikan Laut, Salad, Mayonaise</item>-->
+    <!--<item>Sirloin, Salad, Saus BBq</item>-->
+    <!--<item>Ayam, Salad, Saus Asam Manis</item>-->
+    <!--<item>Dada Ayam, Salad, Saus Mayonaise</item>-->
+    <!--<item>Sayap Ayam, Salad Ungu, Mayonaise</item>-->
+    <!--<item>Kol, Wortel, Bawang Bombay, Salad Ungu, Mayonaise</item>-->
+    <!--</string>-->
+
+    <string-array name="foods_info">
+        <item>Rp 25.000,- </item>
+        <item>Rp 30.000,-</item>
+        <item>Rp 35.000,-</item>
+        <item>Rp 40.000,-</item>
+        <item>Rp 45.000,-</item>
+        <item>Rp 50.000,-</item>
+        <item>Rp 55.000,-</item>
+    </string-array>
+
+    <array name="foods_images">
+        <item>@drawable/food_1</item>
+        <item>@drawable/food_2</item>
+        <item>@drawable/food_3</item>
+        <item>@drawable/food_4</item>
+        <item>@drawable/food_5</item>
+        <item>@drawable/food_6</item>
+        <item>@drawable/food_7</item>
+    </array>
+
+
+
+    <!--untuk spinner meja-->
+    <string-array name="android_layout_arrays">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+        <item>Meja 5</item>
+        <item>Meja 6</item>
+
+    </string-array>
+
+</resources>

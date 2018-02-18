@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_margin"
+    android:background="?android:selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/foodsImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="70dp"
+            android:maxWidth="70dp"
+            />
+
+
+
+        <!--untuk harga-->
+        <TextView
+            android:id="@+id/title"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/card_margin"
+            android:text="@style/FoodsDetailTitle"
+
+
+            />
+
+
+        <TextView
+            android:id="@+id/subTitle"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:padding="@dimen/card_margin"
+            android:text="@string/foods_info_placeholder" />
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
